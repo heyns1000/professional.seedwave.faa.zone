@@ -1,0 +1,108 @@
+{
+  "sector": {
+    "key": "professional",
+    "name": "Professional Services",
+    "emoji": "🧾",
+    "totalBrands": 72,
+    "totalSubnodes": 344,
+    "monthlyFeeUSD": 110,
+    "annualFeeUSD": 1100,
+    "payoutTier": "A",
+    "region": "Global"
+  },
+  "tierRoyalty": {
+    "market": 7.86,
+    "operational": 15.63,
+    "dynastic": 19.71,
+    "sovereign": 27
+  },
+  "groups": [
+    {
+      "id": "sourced-core",
+      "label": "Hand-authored sourcing (ecosystem-v1)",
+      "sourceStatus": "sourced",
+      "note": "Real, hand-authored royalty sourcing.",
+      "brandCount": 12,
+      "subnodeCount": 48,
+      "brands": [
+        { "name": "ConsultVault™", "feeUSD": 29846, "tier": "market", "royaltyPct": 7.86, "subnodes": ["ConsultID™", "VaultConsult™", "AdvisoryNode™", "ExpertSync™"] },
+        { "name": "LegalMeshPro™", "feeUSD": 28927, "tier": "market", "royaltyPct": 7.86, "subnodes": ["LegalProNode™", "VaultLegalPro™", "CounselSync™", "DocMesh™"] },
+        { "name": "AccountNode™", "feeUSD": 43879, "tier": "dynastic", "royaltyPct": 19.71, "subnodes": ["AccountID™", "VaultAccount™", "FinanceSync™", "BookNode™"] },
+        { "name": "AuditGrid™", "feeUSD": 7281, "tier": "market", "royaltyPct": 7.86, "subnodes": ["AuditID™", "VaultAudit™", "ReviewNode™", "ComplianceSync™"] },
+        { "name": "TaxMesh™", "feeUSD": 30680, "tier": "market", "royaltyPct": 7.86, "subnodes": ["TaxNode™", "VaultTax™", "FilingSync™", "TaxGrid™"] },
+        { "name": "HRVault™", "feeUSD": 21816, "tier": "market", "royaltyPct": 7.86, "subnodes": ["HRID™", "VaultHR™", "StaffNode™", "TalentSync™"] },
+        { "name": "ConsultGrid™", "feeUSD": 37890, "tier": "operational", "royaltyPct": 15.63, "subnodes": ["GridConsult™", "VaultGridConsult™", "ExpertGrid™", "AdvisoryGrid™"] },
+        { "name": "ProServices™", "feeUSD": 22523, "tier": "market", "royaltyPct": 7.86, "subnodes": ["ProID™", "VaultPro™", "ServicePro™", "ExpertPath™"] },
+        { "name": "BusinessNode™", "feeUSD": 20058, "tier": "market", "royaltyPct": 7.86, "subnodes": ["BizNode™", "VaultBiz™", "OpsSync™", "BusinessSync™"] },
+        { "name": "ProfVault™", "feeUSD": 25361, "tier": "market", "royaltyPct": 7.86, "subnodes": ["ProfID™", "VaultProf™", "CertPro™", "ProfChain™"] },
+        { "name": "ExpertMesh™", "feeUSD": 46407, "tier": "dynastic", "royaltyPct": 19.71, "subnodes": ["ExpertNode™", "VaultExpert™", "KnowledgeMesh™", "SkillVault™"] },
+        { "name": "ServiceVault™", "feeUSD": 44853, "tier": "dynastic", "royaltyPct": 19.71, "subnodes": ["ServiceID™", "VaultService™", "DeliveryNode™", "QualitySync™"] }
+      ]
+    },
+    {
+      "id": "estimated-flat",
+      "label": "No subnodes — price estimated (sector median)",
+      "sourceStatus": "estimated",
+      "note": "No royalty sourced; priced at sector median.",
+      "brandCount": 9,
+      "subnodeCount": 0,
+      "feeUSD": 25361,
+      "tier": "market",
+      "royaltyPct": 7.86,
+      "brands": [
+        "ProGrid™", "ServiceNode™", "ProFlow™", "ServiceSync™", "ProVault™",
+        "ServiceGrid™", "ProNode™", "ServiceFlow™", "ProSync™"
+      ]
+    },
+    {
+      "id": "needs-pricing",
+      "label": "Needs-pricing",
+      "sourceStatus": "needs-pricing",
+      "note": "Real names and subnode counts, but no fee sourced anywhere. Shown fee is an unsourced operational-tier estimate only.",
+      "brandCount": 4,
+      "subnodeCount": 20,
+      "feeUSD": 37890,
+      "tier": "operational",
+      "royaltyPct": 15.63,
+      "brands": [
+        { "name": "AuditTrail™", "emoji": "📋", "subnodeCount": 5 },
+        { "name": "DocClaim™", "emoji": "📄", "subnodeCount": 5 },
+        { "name": "DropSheet™", "emoji": "📊", "subnodeCount": 5 },
+        { "name": "JudgeTag™", "emoji": "⚖️", "subnodeCount": 5 }
+      ]
+    },
+    {
+      "id": "hsomni-real-parent-child",
+      "label": "HSOMNI real parent→child set",
+      "sourceStatus": "estimated",
+      "note": "Real parent→child brand/subnode structure; no royalty sourced, priced at sector median. Each brand carries 6 real subnode names not itemized in this extract.",
+      "brandCount": 46,
+      "subnodeCount": 276,
+      "feeUSD": 25361,
+      "tier": "market",
+      "royaltyPct": 7.86,
+      "subnodesPerBrand": 6,
+      "brands": [
+        "LedgerNest™", "OmniBooks™", "QCalcX™", "SiteProof™", "LawTrace™", "ContractCast™",
+        "Enginuity™", "RegiSync™", "ScrollAudit™", "ClaimDocX™", "PlanDrop™", "SurveyGrid™",
+        "VaultJudge™", "LoopInspect™", "BuildNode™", "ComplyTrack™", "BudgetCast™", "VaultPlans™",
+        "FormCert™", "ProofLayer™", "ZoneMap™", "TrackSeal™", "DocLoop™", "AuditCrate™",
+        "VerifyLine™", "FrameBook™", "LogicPermit™", "OmniBrief™", "ClauseCraft™", "FormLogic™",
+        "CheckNode™", "AssetTrace™", "LawPathX™", "LedgerFlow™", "BudgetSync™", "CrateJudge™",
+        "SpecAudit™", "LoopCheck™", "OmniTender™", "SignalCompliance™", "BuildCast™", "NodeClause™",
+        "PermitDrop™", "AuditMatrix™", "StructPlan™", "FormDrop™"
+      ]
+    },
+    {
+      "id": "sovereign",
+      "label": "Sovereign",
+      "sourceStatus": "sourced",
+      "note": "Real sourced pricing.",
+      "brandCount": 1,
+      "subnodeCount": 0,
+      "brands": [
+        { "name": "The Lion's Seedwave™", "feeUSD": 63920, "tier": "sovereign", "royaltyPct": 27, "subnodes": [] }
+      ]
+    }
+  ]
+}
